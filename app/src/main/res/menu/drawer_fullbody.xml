@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Menu Navigasi">
+            <menu>
+                <item
+                    android:id="@+id/link_home"
+                    android:title="Menu Utama"
+                    android:icon="@drawable/ic_home"/>
+                <!--                <item-->
+                <!--                    android:id="@+id/link_daftar"-->
+                <!--                    android:title="Daftar Isi"-->
+                <!--                    android:icon="@drawable/ic_list"/>-->
+            </menu>
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Daftar isi">
+            <menu>
+                <item
+                    android:id="@+id/link_fullbody1"
+                    android:title="Exercise 1: Burpee" />
+                <item
+                    android:id="@+id/link_fullbody2"
+                    android:title="Exercise 2: Shoulders Press" />
+                <item
+                    android:id="@+id/link_fullbody3"
+                    android:title="Exercise 3: Side Lateral" />
+                <item
+                    android:id="@+id/link_fullbody4"
+                    android:title="Exercise 4: Pushups" />
+                <item
+                    android:id="@+id/link_fullbody5"
+                    android:title="Exercise 5: Diamond Pushups" />
+                <item
+                    android:id="@+id/link_fullbody6"
+                    android:title="Exercise 6: Pull Up" />
+                <item
+                    android:id="@+id/link_fullbody7"
+                    android:title="Exercise 7: Biceps Curl" />
+                <item
+                    android:id="@+id/link_fullbody8"
+                    android:title="Exercise 8: Squat" />
+                <item
+                    android:id="@+id/link_fullbody9"
+                    android:title="Exercise 9: Crunches" />
+            </menu>
+        </item>
+
+    </group>
+
+</menu>

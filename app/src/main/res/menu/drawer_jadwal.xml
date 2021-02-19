@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Menu Navigasi">
+            <menu>
+                <item
+                    android:id="@+id/link_home"
+                    android:title="Menu Utama"
+                    android:icon="@drawable/ic_home"/>
+                <!--                <item-->
+                <!--                    android:id="@+id/link_daftar"-->
+                <!--                    android:title="Daftar Isi"-->
+                <!--                    android:icon="@drawable/ic_list"/>-->
+            </menu>
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Daftar isi">
+            <menu>
+                <item
+                    android:id="@+id/link_jadwal1"
+                    android:title="SPLIT Push Pull Legs 6 Days" />
+                <item
+                    android:id="@+id/link_jadwal2"
+                    android:title="Upper Lower, 4 Days" />
+                <item
+                    android:id="@+id/link_jadwal3"
+                    android:title="Full Body 3 Days" />
+                <item
+                    android:id="@+id/link_jadwal4"
+                    android:title="Cardio and HIIT 3 days " />
+
+            </menu>
+        </item>
+
+    </group>
+
+</menu>
