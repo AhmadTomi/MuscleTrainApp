@@ -23,7 +23,6 @@ public class sevenminute extends AppCompatActivity {
 
         myVideoView.setMediaController(mediaController);
 
-
         myVideoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
             @Override
             public void onPrepared(MediaPlayer arg0) {
@@ -34,7 +33,6 @@ public class sevenminute extends AppCompatActivity {
 
 
     }
-
 
 
     public void link_close(View view){

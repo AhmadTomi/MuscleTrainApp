@@ -31,6 +31,20 @@ public class MenuUtama extends AppCompatActivity {
                 , FullBodyMenu.class));
         overridePendingTransition(0,0);
     }
+
+    public void mulai_warming(View view){
+
+        startActivity(new Intent(getApplicationContext()
+                , warmingup.class));
+        overridePendingTransition(0,0);
+    }
+    public void mulai_info(View view){
+
+        startActivity(new Intent(getApplicationContext()
+                , Info.class));
+        overridePendingTransition(0,0);
+    }
+
     public void mulai_jadwal(View view){
 
         startActivity(new Intent(getApplicationContext()

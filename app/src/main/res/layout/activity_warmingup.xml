@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/cLayout1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_putih">
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView1"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="356dp"-->
+    <!--        android:text="sample text 2"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="25dp"-->
+    <!--        android:textStyle="bold" />-->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <VideoView
+            android:id="@+id/vdwarming"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="-1dp"
+            android:fitsSystemWindows="true" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="false"
+            android:alpha="0.9"
+            android:clickable="true"
+            android:onClick="link_close"
+            android:padding="10dp"
+            app:srcCompat="@drawable/bt_close" />
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imageView5"-->
+        <!--            android:layout_width="181dp"-->
+        <!--            android:layout_height="72dp"-->
+        <!--            android:layout_alignParentBottom="true"-->
+        <!--            android:layout_marginBottom="20dp"-->
+        <!--            android:layout_marginLeft="15dp"-->
+        <!--            android:alpha="0.7"-->
+        <!--            app:srcCompat="@drawable/title_muscle1" />-->
+    </RelativeLayout>
+
+</FrameLayout>
